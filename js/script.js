@@ -10,6 +10,7 @@ window.addEventListener('DOMContentLoaded', () => {
 		catImg.forEach(item => {
 			item.style.display = 'none';
 		});
+		
 		btn.forEach(item => {
 			item.classList.remove('button__active');
 		});
